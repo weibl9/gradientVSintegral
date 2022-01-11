@@ -103,7 +103,6 @@ for irow=1:nrow
 end
 set(gcf,'Position',[50 200 1000 250])
 set(h,'PaperSize',[15 10])
-print(['../LaTexSourceFiles DeIn/figs/1d-linear-',num2str(dyn)],'-bestfit','-dpdf')
 
 %% group boxplot for integral matching-based initial cinditions
 h = figure;
@@ -135,7 +134,6 @@ ylabel('$\hat{\eta}$','interpreter','latex')
     
 set(gcf,'Position',[50 200 1000 250])
 set(h,'PaperSize',[15 10])
-print(['../LaTexSourceFiles DeIn/figs/1d-linear-init',num2str(dyn)],'-bestfit','-dpdf')
 
 %% tables of the estimates
 [nrow, ncol] = size(par_est);
