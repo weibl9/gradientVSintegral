@@ -1,2 +1,5 @@
 # gradientVSintegral
-Codes for gradient matching and integral matching in grey system models
+Codes for 
+"Parameter estimation for grey system models: Gradient matching versus integral matching"
+by Baolei Wei
+
