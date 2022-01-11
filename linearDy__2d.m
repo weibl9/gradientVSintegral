@@ -116,7 +116,6 @@ for ipar = 1:npar
     end
     set(gcf,'Position',[50 200 1050 450])
     set(h,'PaperSize',[15 10])
-%     print(['../LaTexSourceFiles DeIn/figs/2d-linear-',num2str(ipar)],'-bestfit','-dpdf')
 end 
 %% group boxplot for integral matching-based initial cinditions
 for icmp = 1:2
@@ -150,7 +149,6 @@ for icmp = 1:2
     end
     set(gcf,'Position',[50 200 1050 450])
     set(h,'PaperSize',[15 10])
-%     print(['../LaTexSourceFiles DeIn/figs/2d-linear-init',num2str(icmp)],'-bestfit','-dpdf')
 end
 
 
