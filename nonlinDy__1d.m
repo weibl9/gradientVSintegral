@@ -115,7 +115,6 @@ for ipar = 1:npar
     end
     set(gcf,'Position',[50 200 1050 250])
     set(h,'PaperSize',[15 10])
-    print(['../LaTexSourceFiles DeIn/figs/1d-nonlinear-',num2str(ipar)],'-bestfit','-dpdf')
 end
 
 %% group boxplot for integral matching-based initial cinditions
@@ -145,8 +144,6 @@ ylabel('$\hat{\eta}$','interpreter','latex')
     
 set(gcf,'Position',[50 200 1000 250])
 set(h,'PaperSize',[15 10])
-print('../LaTexSourceFiles DeIn/figs/1d-nonlinear-init','-bestfit','-dpdf')
-
 
 %% tables of the estimates
 [nrow, ncol] = size(par_est);
